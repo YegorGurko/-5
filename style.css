@@ -2,6 +2,7 @@ html,
 body {
   position: relative;
   height: 100%;
+  
 }
 
 body {
@@ -16,7 +17,7 @@ body {
 .myView {
   width: 100%;
   height: 60%;
-  background-color: #FFAD36;
+  background-color: #000;
 }
 
  myView .swiper-slide {
@@ -49,8 +50,8 @@ body {
 .text-wrapper{
     display: flex;
     text-align: center;
-    background-color: #FFAD36;
-    color: #000;
+    background-color: #000;
+    color: #FFA31A;
     height: 50px;
     padding: 50px;
     justify-content: center;
@@ -58,16 +59,16 @@ body {
   
 .information{
    display: flex;
-   background-color: #FFAD36;
-   color: #000 ;
+   background-color: #000;
+   color: #FFA31A ;
 
 }
 
 .name {
   display: flex;
   text-align: center;
-  background-color: #FFAD36;
-  color: #000;
+  background-color: #000;
+  color: #FFA31A;
   height: 50px;
   padding: 50px;
   justify-content: center;
@@ -78,13 +79,50 @@ body {
   display: flex;
   width: 500px;
   height: 500px;
-  background-color: #FFAD36;
+  background-color: #000;
  margin: 20px;
  margin-left: 50px;
  
 }
 
 .bunker-wrapper{
-  background-color: #FFAD36;
+  background-color: #000;
+  color: #FFA31A;
 }
 
+.bunkertext-wrapper{
+display: flex;
+ 
+}
+
+.bunkertext-wrapper h2 { 
+  margin: 5px;
+  
+  height: 20px;
+}
+
+.footer-wrapper{
+height: 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(37, 2, 2);
+color: #FFA31A;
+margin: 0px;
+
+}
+.footer-wrapper img{
+
+  width: 64px;
+  height: 36px;
+}
+
+.footer-wrapper .menu-wrapper a{
+  display: flex;
+  
+  justify-content: center;
+  text-decoration: none;
+  margin: 10px;
+  background-color: rgb(37, 2, 2);
+  color: #FFA31A;
+}
